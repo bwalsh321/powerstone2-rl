@@ -1,0 +1,34 @@
+# --- NEVER commit game data / emulator payloads ---
+*.chd
+*.gdi
+*.cdi
+*.bin
+*.state
+*.VMS
+*.VMI
+vmu_save_*
+flycast*/
+redream*/
+
+# runtime bridge + telemetry (recreated at run time)
+bridge/
+ep_stats*.csv
+*.log
+
+# memory dumps / recordings (huge, machine-specific)
+ps2_ramdump_*.txt
+ps2_dump*.txt
+dump_*.txt
+rec_*.txt
+
+# models & checkpoints
+*.zip
+checkpoints*/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# scratch
+_to_delete/
