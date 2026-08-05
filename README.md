@@ -1,5 +1,9 @@
 # Power Stone 2 RL — teaching a bot to fight (and transform) on a real Dreamcast game
 
+To be clear, yes Claude has helped me scan memory values, and AI has assisted in this project. I am a developer with 3 small kids, one of which is a two week old. There is also no decomp that I could find as this game does not have the same following as Pokemon or other huge games. I used AI to help accelerate this project as memory was the holdup, and what a great job for AI to do instead of me.
+
+This is far from AI slop, I used it to accelerate, not do everything. All the engieering decisions and directions are from me. If I left it up to Claude, it would not have even verified the memory values to see when a powerstone was actually picked up or not. 
+
 A reinforcement-learning rig that trains a PPO agent to play **Power
 Stone 2** running in the **Flycast** Dreamcast emulator — no pixels, no
 frame grabs. A Lua script inside the emulator reads game memory every
